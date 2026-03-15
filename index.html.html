@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Room Surprise Booking</title>
+
+<style>
+
+body{
+font-family:Arial;
+margin:0;
+background:#f4f4f4;
+}
+
+/* HEADER */
+
+header{
+background:#ff4081;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+/* GALLERY */
+
+.gallery{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+padding:20px;
+}
+
+.gallery img{
+width:300px;
+height:200px;
+object-fit:cover;
+margin:10px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+/* BOOKING FORM */
+
+.booking{
+background:white;
+width:350px;
+margin:30px auto;
+padding:20px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+.booking h2{
+text-align:center;
+}
+
+input, select{
+width:100%;
+padding:10px;
+margin:10px 0;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+button{
+width:100%;
+padding:12px;
+background:#ff4081;
+color:white;
+border:none;
+border-radius:5px;
+font-size:16px;
+cursor:pointer;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+background:#222;
+color:white;
+padding:10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Room Surprise Decorations</h1>
+<p>Book Your Special Moment</p>
+</header>
+
+<!-- PHOTOS -->
+
+<div class="gallery">
+
+<img src="gi.jpg".jpg">
+<img src="glass.jpg">
+<img src="images.jpg">
+<img src="phic.jpg">
+
+</div>
+
+<!-- BOOKING FORM -->
+
+<div class="booking">
+
+<h2>Book Your Slot</h2>
+
+<form>
+
+<input type="text" placeholder="Your Name" required>
+
+<input type="tel" placeholder="Phone Number" required>
+
+<input type="date" required>
+
+<select required>
+<option>Select Time Slot</option>
+<option>10:00 AM - 12:00 PM</option>
+<option>12:00 PM - 2:00 PM</option>
+<option>2:00 PM - 4:00 PM</option>
+<option>6:00 PM - 8:00 PM</option>
+</select>
+
+<button type="submit">Book Now</button>
+
+</form>
+
+</div>
+
+<footer>
+<p>© Sara Room Surprise Service</p>
+</footer>
+
+</body>
+</html>
